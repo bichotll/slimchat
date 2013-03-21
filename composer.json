@@ -1,0 +1,6 @@
+{
+    "require": {
+        "doctrine/orm": "2.3.*@dev",
+    	"slim/slim": "dev-develop"
+    }
+}
