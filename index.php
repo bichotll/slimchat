@@ -29,9 +29,6 @@ $app->post('/send_msn', function() use ($app, $entityManager){
 
     $entityManager->persist($msn);
     $entityManager->flush();
-
-    #temp
-    echo json_encode($_POST);
 });
 
 //refresh

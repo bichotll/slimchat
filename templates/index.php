@@ -121,9 +121,6 @@
             var room = 'master';
             var last_id_group;
             
-            //temp
-            var temp_temp;
-            
 
             //functions
             function refresh() {
@@ -255,7 +252,6 @@
             }
             function add_msn(data) {
                 if ( ncrip_hash != '' && data.user != 'System' ){
-                    temp_temp = data.msn;
                     data.msn = dcript(data.msn);
                     console.log(data.msn);
                 }
