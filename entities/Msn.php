@@ -1,6 +1,5 @@
 <?php
 
-
 /** @Entity @Table(name="msns") */
 class Msn
 {
@@ -18,6 +17,16 @@ class Msn
 
    /** @Column(type="string", length=60) */
    private $room;
+
+   /** @Column(type="string", length=60, nullable=true) */
+   private $enviat;
+
+
+   function __construct(){
+      $enviat = new DateTime('now');
+      $this->enviat = $enviat->format('H:i');
+      $this->room = 'master';
+   }
 
    public function getId()
    {
@@ -52,6 +61,16 @@ class Msn
    public function setRoom($room)
    {
       $this->room = $room;
+   }
+
+   public function getEnviat()
+   {
+      return $this->enviat;
+   }
+
+   public function setEnviat($enviat)
+   {
+      $this->enviat = $enviat;
    }
 
 }
