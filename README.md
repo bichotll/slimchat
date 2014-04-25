@@ -8,18 +8,23 @@ It was just created for fun and hard commited to have it here.
 
 ##Screenshots
 
+####Chrome extension:
 ![](https://raw.githubusercontent.com/bichotll/slimchat/master/chrome-popup.png)
 
 ![](https://raw.githubusercontent.com/bichotll/slimchat/master/chrome-window.png)
 
+####Web
 ![](https://raw.githubusercontent.com/bichotll/slimchat/master/web.png)
 
 ##About
 
 A simple slim chat developed with...
 
-BackEnd: Composer, Doctrine, Slimchat
-FrontEnd: CryptoJS, jQuery, Twitter Bootstrap
+**BackEnd**: Composer, Doctrine, Slimchat
+
+**FrontEnd**: CryptoJS, jQuery, Twitter Bootstrap
+
+**Chrome extension** ...simply used a bit modified web code
 
 ##Objective
 
