@@ -4,7 +4,7 @@
 
 It was just created for fun and hard commited to have it here.
 
-**Don't judge me for the code, you are advised!**
+**Don't judge me for the code, you are advised! ;)**
 
 ##Screenshots
 
