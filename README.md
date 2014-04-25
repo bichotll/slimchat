@@ -1,24 +1,39 @@
-SlimChat
-=============
+#SlimChat
+
+##Important note (updated)
+
+It was just created for fun and hard commited to have it here.
+
+**Don't judge me for the code, you are advised!**
+
+##Screenshots
+
+![](https://raw.githubusercontent.com/bichotll/slimchat/master/chrome-popup.png)
+
+![](https://raw.githubusercontent.com/bichotll/slimchat/master/chrome-window.png)
+
+![](https://raw.githubusercontent.com/bichotll/slimchat/master/web.png)
+
+##About
 
 A simple slim chat developed with...
 
 BackEnd: Composer, Doctrine, Slimchat
 FrontEnd: CryptoJS, jQuery, Twitter Bootstrap
 
+##Objective
 
-Objective
-----
+Develop a simple chat to work local with secured and encripted data.
 
-Develop a simple chat to work local with security and encript data.
-
-
-You can
-----
-Create new rooms, encript your messages, delete historial
+It helped me time ago to test different tools and at the same time have fun with my work colleagues.
 
 
-Notes
-----
+##You can
+
+Create new rooms, encript your messages, delete historial...
+
+
+##Notes
+
 It works efficiently, but it's a experiment to work/improve those technologies.
 Use only in secure environment. It doesn't have control of users, inputs...etc
